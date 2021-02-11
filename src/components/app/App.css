@@ -1,0 +1,48 @@
+body{
+    background-image: url('../../ClipartKey_552410.png');
+    
+}
+.App {
+    margin: auto;
+    margin-top: 50px;
+    width: 371.5px;
+    height: 803.8px;
+    background: black;
+    color: white;
+    border-radius: 33px;
+    padding: 13.2px;
+    position: relative;
+}
+
+.top {
+    height: 165px;
+    padding: 0 13.2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.display {
+    font-size: 85.8px;
+    margin-bottom: 13.2px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 13.2px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bottom {
+    position: absolute;
+    width: 132px;
+    height: 3.3px;
+    background: white;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2.6px;
+}

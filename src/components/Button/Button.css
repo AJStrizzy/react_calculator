@@ -1,0 +1,36 @@
+.Button {
+    background: #333;
+    width: 72.6px;
+    height: 72.6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29.7px;
+    cursor: pointer;
+    transition: filter 0.3s ease-in;
+}
+
+
+.Button:hover {
+    filter: brightness(120%);
+}
+
+.Button.zero {
+    width: 165px;
+    grid-column: 1 / span 2;
+    border-radius: 37.95px;
+    position: relative;
+    justify-content: flex-start;
+    padding-left: 28.38px;
+}
+
+.Button.function {
+    color: black;
+    background: #a5a5a5;
+
+}
+
+.Button.operator {
+    background: #f1a33c;
+}
